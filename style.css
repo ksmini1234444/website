@@ -1,0 +1,59 @@
+.explain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.card-explain {
+    font-size: calc(1rem + .9vw);
+    text-align: center;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fluid {
+    margin-top: 3em;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+.card-hover {
+    margin: 0.01em;
+    width: 5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    margin-top: 1em;
+    font-size: 1.3em;
+
+}
+
+.a-explain {
+    text-decoration: none;
+    color: white;
+}
+
+
+.fotter-first {
+ height: 100px;
+ position:relative;
+ top: 2em;
+ left: 2em;
+}
+    
+.fotter-last {
+ position:relative;
+ top: 2em;
+ left: 2em;
+}
